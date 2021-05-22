@@ -1,0 +1,31 @@
+.google-header {
+    margin: 90px 0px;
+    font-size:90px;
+    text-align: center;
+    display:block;
+}
+
+.google-header__home {
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    margin: -18px;
+}
+.google-header__home:first-child {
+    color:rgb(45, 101, 255)  ;
+}
+.google-header__home:nth-child(2) {
+    color: rgb(238, 12, 12);
+}
+.google-header__home:nth-child(3) {
+    color: rgb(238, 201, 78);
+}
+.google-header__home:nth-child(4) {
+    color: rgb(45, 101, 255);
+}
+.google-header__home:nth-child(5) {
+    color: rgb(6, 160, 6);
+}
+.google-header__home:last-child {
+    color: rgb(238, 12, 12) ;
+}

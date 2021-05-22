@@ -1,2 +1,8 @@
 @import "reset.css";
+
+/*components*/
 @import "components/status-bar.css";
+@import "components/google-header.css";
+
+/*screens*/
+@import "screens/google-header.css";

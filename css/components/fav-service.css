@@ -1,0 +1,27 @@
+.fav-service {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.fav-service__components {
+    width: 70px;
+    height: 70px;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    
+}
+.fav-service__icons {
+    height: 25px;
+    padding: 15px 0px;
+}
+.fav-service__hidden {
+    position: absolute;
+    left: 50px;
+}
+
+.fav-service__name {
+    height: 30px;
+    align-items: center;
+}

@@ -8,3 +8,7 @@
 
 /*screens*/
 @import "screens/google-header.css";
+
+.main-body {
+  width: 100%;
+}

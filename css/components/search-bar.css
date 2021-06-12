@@ -1,25 +1,13 @@
-.google__main {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.google-header__title {
-  user-select: none;
-}
-
-main {
-  width: 500px;
-}
 .search-bar {
   display: flex;
   align-items: center;
-  width: 100%;
+  width: 70%;
   height: 50px;
   padding: 0 20px;
   border-radius: 25px;
   background-color: white;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin: 0 70px;
   margin-bottom: 30px;
   color: hsl(0, 0%, 70%);
 }

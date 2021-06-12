@@ -1,50 +1,52 @@
 .fav-service {
-    width: 100%;
-    margin-top: 20px;
-    
+  width: 100%;
+  margin-top: 20px;
 }
 .fav-service__container {
-    display: flex;
-    text-align: center;
-    width: 500px;
-    padding-left: 20px;
+  display: flex;
+  text-align: center;
+  width: 500px;
+  padding-left: 20px;
 }
 .fav-service__components {
-    width: 120px;
-    height: 80px;
-    border-radius: 5px;
-    position: relative;
+  width: 120px;
+  height: 80px;
+  border-radius: 5px;
+  position: relative;
 }
 .fav-service__components:hover {
-    background-color: rgb(226, 226, 226);
+  background-color: rgb(226, 226, 226);
 }
 .fav-service__hidden i {
-    opacity: 0;
-    
+  opacity: 0;
 }
-.fav-service__components:hover i{
-    opacity: 1;
-    transition-delay: 0.5s;
+.fav-service__components:hover i {
+  opacity: 1;
+  transition-delay: 0.5s;
 }
 
 .fav-service__icons {
-    height: 25px;
-    padding: 15px 0px;
+  height: 25px;
+  padding: 15px 0px;
 }
 .fav-service__icons img {
-    width: 35px;
-    height: 35px;
-    border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
 }
 
 .fav-service__hidden {
-    display: flex;
-    position: absolute;
-    right: 5px;
-    top: 5px;
-    color: rgb(139, 139, 139);
+  display: flex;
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  opacity: 0;
+}
+.fav-service__components:hover .fav-service__hidden {
+  transition-delay: 0.3s;
+  opacity: 1;
 }
 
 .fav-service__name {
-    height: 15px;
+  height: 15px;
 }

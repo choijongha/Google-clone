@@ -2,7 +2,7 @@
 
 /*components*/
 @import "components/status-bar.css";
-@import "components/google-header.css";
+@import "screens/google-header.css";
 @import "components/search-bar.css";
 @import "components/fav-service.css";
 
